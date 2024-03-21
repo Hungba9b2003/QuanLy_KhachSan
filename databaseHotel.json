@@ -1,0 +1,185 @@
+{
+  "account": [
+    {
+      "id": 1,
+      "username": "hung",
+      "password": "1",
+      "Phone": "0974753094",
+      "loyalcus": 0,
+      "role": 0
+    },
+    {
+      "id": 2,
+      "username": "vuong",
+      "password": "1",
+      "Phone": "0974753093",
+      "loyalcus": 0,
+      "role": 1
+    }
+  ],
+  "room": [
+    {
+      "id": 1,
+      "name": "101",
+      "typeroom": 4
+    },
+    {
+      "id": 2,
+      "name": "102",
+      "typeroom": 1
+    },
+    {
+      "id": 3,
+      "name": "103",
+      "typeroom": 3
+    },
+    {
+      "id": 4,
+      "name": "104",
+      "typeroom": 2
+    },
+    {
+      "id": 5,
+      "name": "105",
+      "typeroom": 3
+    },
+    {
+      "id": 6,
+      "name": "106",
+      "typeroom": 2
+    },
+    {
+      "id": 7,
+      "name": "201",
+      "typeroom": 1
+    },
+    {
+      "id": 8,
+      "name": "202",
+      "typeroom": 4
+    }
+  ],
+  "booking": [
+    {
+      "accountid": "1",
+      "roomid": "1",
+      "quantityday": 2,
+      "checkindate": "2024-03-21",
+      "checkoutdate": "2024-03-23",
+      "bill": 0,
+      "id": 1
+    },
+    {
+      "accountid": "1",
+      "roomid": "2",
+      "quantityday": 3,
+      "checkindate": "2024-03-21",
+      "checkoutdate": "2024-03-24",
+      "bill": 300,
+      "id": 2
+    }
+  ],
+  "service": [
+    {
+      "id": 1,
+      "name": "Buffet",
+      "price": 10,
+      "imgservice": "https://anthanhhung.com/media/news/81_image001.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Spa",
+      "price": 10,
+      "imgservice": "https://easysalon.vn/wp-content/uploads/2022/01/bo-phan-spa-trong-khach-san-1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Pool",
+      "price": 10,
+      "imgservice": "https://www.seagullhotel.com.vn/wp-content/uploads/2021/10/Ho-boi-Khach-san-Hai-Au-Quy-Nhon-Seagull-Hotel-1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Gym",
+      "price": 10,
+      "imgservice": "https://www.vietnambooking.com/wp-content/uploads/2017/10/khach-san-co-phong-tap-the-hinh-khong-7-7-2018-2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tennis",
+      "price": 10,
+      "imgservice": "https://icdn.dantri.com.vn/2018/9/8/tennis-15363642963341493428224.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Golf",
+      "price": 999,
+      "imgservice": "https://cdn-i.vtcnews.vn/resize/th/upload/2022/03/22/golf-07542217.jpg"
+    }
+  ],
+  "service_order": [
+    {
+      "id": 3,
+      "serviceid": 1,
+      "roomid": 1
+    }
+  ],
+  "typeroom": [
+    {
+      "id": 1,
+      "name": "Main Wing",
+      "bedquantity": 1,
+      "size": "40.0 m²",
+      "imgroom": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10008502-86feeb67a782566a44f96607dcf72f8a.jpeg?",
+      "imgroom1": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10008502-f1a7100fa904aa8d67d30504f37fa088.jpeg?",
+      "imgroom2": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008502-082e392f2a4e81511b0ad38eb310621c.jpeg?",
+      "imgroom3": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008502-c7be0453f50207522938bfe9ca903a98.jpeg?",
+      "imgroom4": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10008502-4a371f2a2f8cd1f1ba0899d168f27a2a.jpeg?",
+      "imgroom5": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10008502-b4745828315e307d2d3104b3900819b0.jpeg?",
+      "description": "Bathroom, twin bedded",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Annex",
+      "bedquantity": 2,
+      "size": "44.0 m²",
+      "imgroom": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008502-f9418542e1bd081c930159fd532a89d2.jpeg?",
+      "imgroom1": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008502-af2839db30d3018139ce2e8adea40af0.jpeg?",
+      "imgroom2": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008502-082e392f2a4e81511b0ad38eb310621c.jpeg?",
+      "imgroom3": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008502-78a67c35324022326db3327b2a1cc86c.jpeg?",
+      "imgroom4": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008502-56b666af994cdc766aa9c36bdee761d3.jpeg?",
+      "imgroom5": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10008502-3d38e57f3835b4e204362519bcee7923.jpeg?",
+      "description": "Bathroom",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "New Wing",
+      "bedquantity": 2,
+      "size": "47.0 m²",
+      "imgroom": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10024362-6d58b7072f3e1462356d7c89819533bc.jpeg?",
+      "imgroom1": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10024362-8d2dec5fcfe2b1abdf6a28a5df248358.jpeg?",
+      "imgroom2": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10024362-1a75c780670465c3e3f67ab72c8f3893.jpeg?",
+      "imgroom3": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10024362-9feb38d5e506c35b44bad21af3f51f16.jpeg?",
+      "imgroom4": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10024362-873431605fc24cb6dec840a1f713cef9.jpeg?",
+      "imgroom5": "https://ik.imagekit.io/tvlk/generic-asset/Ixf4aptF5N2Qdfmh4fGGYhTN274kJXuNMkUAzpL5HuD9jzSxIGG5kZNhhHY-p7nw/hotel/asset/10024362-3fa5a8352e23037f79299e1557f55331.jpeg?",
+      "description": "Bathroom, twin bedded",
+      "price": 120
+    },
+    {
+      "id": 4,
+      "name": "Jasmine Suite",
+      "bedquantity": 1,
+      "size": "47.0 m²",
+      "imgroom": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10024362-78c1dba45d033a0e841668bb5f97e66a.jpeg?",
+      "imgroom1": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10024362-77bbba3d10cad04f3da41ea5d8d58dc3.jpeg?",
+      "imgroom2": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67706614-2880x1911-FIT_AND_TRIM-306020b7732e51a3cc1dfdc82115a73f.jpeg?",
+      "imgroom3": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/67706614-2880x1911-FIT_AND_TRIM-2f1c93ae47c516e73b257d920095495e.jpeg?",
+      "imgroom4": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10024362-b744485cd0b32e9c14377d1344694455.jpeg?",
+      "imgroom5": "https://ik.imagekit.io/tvlk/generic-asset/dgXfoyh24ryQLRcGq00cIdKHRmotrWLNlvG-TxlcLxGkiDwaUSggleJNPRgIHCX6/hotel/asset/10024362-2880x1920-FIT_AND_TRIM-795fea4393b364c3cda4e1e4cb9aae4f.jpeg?",
+      "description": "Bathroom, one king bedded, one living room",
+      "price": 150
+    }
+  ]
+}
